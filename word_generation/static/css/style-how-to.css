@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background: #757575;
+  }
+
+  .info {
+    min-height: 50vh;
+    max-height: 90vh;
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -70%);
+    padding: 0 2vw;
+    animation: fadein 2s;
+    color: white;
+    font-family: "Poppins", sans-serif;
+  }
+
+  .basics {
+      padding-top: 7.5vh;
+  }
+
+  li {
+      margin: 2vh;
+  }
+  
+  @media only screen and (max-device-width: 900px) {
+     .basics {
+         padding-left: 2vh;
+     }
+  }
+  
