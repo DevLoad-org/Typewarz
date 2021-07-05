@@ -64,14 +64,14 @@ def test(request):
 
     """
     Number of words of each kind (no of characters):
-    3 characters - 20 
-    4 characters - 20 
-    5 characters - 21 
-    6 characters - 15 
-    7 characters - 13 
-    8 characters - 11 
+    3 characters - 10 
+    4 characters - 10 
+    5 characters - 11 
+    6 characters - 7 
+    7 characters - 7 
+    8 characters - 5 
     """
-    word_limits = [20, 20, 21, 15, 13, 11]
+    word_limits = [10, 10, 11, 7, 7, 5]
     word_counts = [0, 0, 0, 0, 0, 0]
     text = ""
 
