@@ -54,4 +54,4 @@ The accuracy is calculated by dividing the correct typed by the total words.
 The WPM is calculated using the formula: ((100 * accuracy)/total time (in seconds)) * 60.
 
 ## What is Django?
-It is a web framework that allows devlopers create dynamic websites and provides features like security. [Read more]("https://www.djangoproject.com/start/overview/")
+Django is a high-level Python web framework that encourages rapid development and clean, pragmatic design. Built by experienced developers, it takes care of much of the hassle of web development, so you can focus on writing your app without needing to reinvent the wheel. It’s free and open source. [Read more]("https://www.djangoproject.com/start/overview/")
