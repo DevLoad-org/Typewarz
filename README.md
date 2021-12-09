@@ -2,7 +2,7 @@
 
 ![Image of homepage](images/home.png)
 
-A minimalistic typing test website using Django and Vanilla JS that tracks user keystrokes to provide accuracy and WPM measurements. Built a User database that provides previous test data and allows for users to make their own accounts.
+A minimalistic typing test website using Django and Vanilla JS that tracks user keystrokes to provide accuracy and WPM measurements. Also has an integrated User database that provides previous test data and allows for users to make their own accounts.
 
 ## The Goal?
 Type all the words in the shortest time possible!
@@ -42,7 +42,7 @@ The results page displays the user's words per minute, their total time and accu
 Users have the option to redo the test and save their results.
 
 ## How are the words generated?
-50 words are generated from a list of words.
+50 words are generated randomly from a list of words that have been stored in our database. Although the words are random, the approximate difficulty of each set of words remains the same, as the number of words of each length stays consistent across each randomly generated set.
 
 ## How are the keystrokes tracked
 A variable is used to store and mimic the user's keystrokes. Every keydown event is recorded and then compared to the expected event which is then used to check for correctness and accordingly colored.
